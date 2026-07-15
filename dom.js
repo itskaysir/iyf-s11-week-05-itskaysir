@@ -79,3 +79,20 @@ console.log("All li elements within ul:", liElements);
 const footer = document.querySelector("footer");
 const body = footer.parentElement;
 console.log("Parent of footer (body):", body);
+
+
+function addNavItem(text, href) {
+    // Create li with a.nav-link inside
+    const li = document.createElement("li");
+    const a = document.createElement("a");
+    a.href = href;
+    a.textContent = text;
+    a.classList.add("nav-link");
+    li.appendChild(a);
+
+    // Add to the nav list
+    nav.appendChild(li);
+}
+
+addNavItem("Blog", "/blog");
+addNavItem("Portfolio", "/portfolio");
