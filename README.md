@@ -1,4 +1,4 @@
-# Week {Number}: {Project Title}
+# Week 5: {Project Title}
 
 ## Author
 - **Name:** Antony Juma
